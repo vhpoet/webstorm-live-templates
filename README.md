@@ -20,4 +20,37 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
     <option name="JS_STATEMENT" value="true" />
   </context>
 </template>
+<template name="tdui" value="// TODO:UI " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="tdux" value="// TODO:UX " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+```
+
+## JSX
+```xml
+<template name="///" value="{/* $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
+<template name="tdui" value="{/* TODO:UI $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
+<template name="tdux" value="{/* TODO:UX $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
 ```
