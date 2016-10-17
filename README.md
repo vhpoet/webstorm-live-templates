@@ -34,6 +34,13 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
     <option name="JS_STATEMENT" value="true" />
   </context>
 </template>
+<template name="tdsec" value="// TODO:SECURITY " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
 <template name="tdui" value="// TODO:UI " toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JAVA_SCRIPT" value="true" />
