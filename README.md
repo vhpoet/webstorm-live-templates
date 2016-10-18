@@ -64,17 +64,22 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
     <option name="JSX_HTML" value="true" />
   </context>
 </template>
-<template name="tdper" value="{/* TODO:PERFORMANCE $END$ */}" toReformat="false" toShortenFQNames="true">
+<template name="tdd" value="{/* TODO $END$ */}" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JSX_HTML" value="true" />
   </context>
 </template>
-<template name="tdui" value="{/* TODO:UI $END$ */}" toReformat="false" toShortenFQNames="true">
+<template name="tdperr" value="{/* TODO:PERFORMANCE $END$ */}" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JSX_HTML" value="true" />
   </context>
 </template>
-<template name="tdux" value="{/* TODO:UX $END$ */}" toReformat="false" toShortenFQNames="true">
+<template name="tduii" value="{/* TODO:UI $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
+<template name="tduxx" value="{/* TODO:UX $END$ */}" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JSX_HTML" value="true" />
   </context>
