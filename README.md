@@ -27,6 +27,13 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
     <option name="JS_STATEMENT" value="true" />
   </context>
 </template>
+<template name="tdbd" value="// TODO:BEFORE_DEPLOY " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
 <template name="tdper" value="// TODO:PERFORMANCE " toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JAVA_SCRIPT" value="true" />
@@ -60,6 +67,11 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
 ## JSX
 ```xml
 <template name="///" value="{/* $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
+<template name="tdbdd" value="{/* TODO:BEFORE_DEPLOY $END$ */}" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JSX_HTML" value="true" />
   </context>
