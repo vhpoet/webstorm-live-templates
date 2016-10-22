@@ -64,6 +64,74 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
 </template>
 ```
 
+## React
+```xml
+<template name="rsets" value="this.setState({&#10;  ...this.state,&#10;  $END$&#10;})" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcdm" value="componentDidMount() {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcdu" value="componentDidUpdate(prevProps, prevState) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcwm" value="componentWillMount() {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcwrp" value="componentWillReceiveProps(nextProps) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcwu" value="componentWillUpdate(nextProps, nextState) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rcwun" value="componentWillUnmount() {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="rscu" value="shouldComponentUpdate(nextProps, nextState) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+```
+
 ## JSX
 ```xml
 <template name="///" value="{/* $END$ */}" toReformat="false" toShortenFQNames="true">
