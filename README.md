@@ -77,7 +77,66 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
   </context>
 </template>
 <template name="tdref" value="// TODO:REFACTOR " toReformat="false" toShortenFQNames="true">
+<template name="cl" value="console.log('$FILE$:$LINE$', $END$)" toReformat="false" toShortenFQNames="true">
+  <variable name="FILE" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
   <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="td" value="// TODO " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="CSS_PROPERTY_VALUE" value="true" />
+    <option name="CSS_DECLARATION_BLOCK" value="true" />
+    <option name="CSS_RULESET_LIST" value="true" />
+    <option name="CSS" value="true" />
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="tdbd" value="// TODO:BEFORE_DEPLOY " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="CSS_PROPERTY_VALUE" value="true" />
+    <option name="CSS_DECLARATION_BLOCK" value="true" />
+    <option name="CSS_RULESET_LIST" value="true" />
+    <option name="CSS" value="true" />
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="tdbg" value="// TODO:BUG " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="CSS_PROPERTY_VALUE" value="true" />
+    <option name="CSS_DECLARATION_BLOCK" value="true" />
+    <option name="CSS_RULESET_LIST" value="true" />
+    <option name="CSS" value="true" />
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="tdper" value="// TODO:PERFORMANCE " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="CSS_PROPERTY_VALUE" value="true" />
+    <option name="CSS_DECLARATION_BLOCK" value="true" />
+    <option name="CSS_RULESET_LIST" value="true" />
+    <option name="CSS" value="true" />
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
+<template name="tdref" value="// TODO:REFACTOR " toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="CSS_PROPERTY_VALUE" value="true" />
+    <option name="CSS_DECLARATION_BLOCK" value="true" />
+    <option name="CSS_RULESET_LIST" value="true" />
+    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
     <option name="JS_EXPRESSION" value="true" />
     <option name="JSX_HTML" value="true" />
@@ -200,6 +259,11 @@ The only way I found to be working is [just copy pasting a raw XML](https://www.
   </context>
 </template>
 <template name="tdd" value="{/* TODO $END$ */}" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="JSX_HTML" value="true" />
+  </context>
+</template>
+<template name="tdbgg" value="{/* TODO:BUG $END$ */}" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JSX_HTML" value="true" />
   </context>
