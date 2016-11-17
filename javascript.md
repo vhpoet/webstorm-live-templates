@@ -1,4 +1,4 @@
-```
+```xml
 <template name="afn" value="($var1$) =&gt; {&#10;  $END$&#10;}" description="arrow function" toReformat="false" toShortenFQNames="true">
   <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
   <context>
