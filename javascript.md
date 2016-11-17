@@ -5,20 +5,20 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="cl" value="console.log('$FILE$:$LINE$', $END$)" toReformat="false" toShortenFQNames="true">
+<template name="cl" value="console.log('$FILE$:$LINE$', $END$)" description="console.log file:line" toReformat="false" toShortenFQNames="true">
   <variable name="FILE" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
   <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
   <context>
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="clhandle" value="$HANDLER_NAME$ = (e) =&gt; {&#10;  e.preventDefault()&#10;  &#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+<template name="clhandle" value="$HANDLER_NAME$ = (e) =&gt; {&#10;  e.preventDefault()&#10;  &#10;  $END$&#10;}" description="click handler function" toReformat="false" toShortenFQNames="true">
   <variable name="HANDLER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
   <context>
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="eprev" value="e.preventDefault()" toReformat="false" toShortenFQNames="true">
+<template name="eprev" value="e.preventDefault()" description="e.preventDefault()" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="JAVA_SCRIPT" value="true" />
   </context>
@@ -36,49 +36,49 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="td" value="// TODO " toReformat="false" toShortenFQNames="true">
+<template name="td" value="// TODO " description="todo" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdbd" value="// TODO:BEFORE_DEPLOY " toReformat="false" toShortenFQNames="true">
+<template name="tdbd" value="// TODO:BEFORE_DEPLOY " description="todo:before_deploy" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdbg" value="// TODO:BUG " toReformat="false" toShortenFQNames="true">
+<template name="tdbg" value="// TODO:BUG " description="todo:bug" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdper" value="// TODO:PERFORMANCE " toReformat="false" toShortenFQNames="true">
+<template name="tdper" value="// TODO:PERFORMANCE " description="todo:performance" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdref" value="// TODO:REFACTOR " toReformat="false" toShortenFQNames="true">
+<template name="tdref" value="// TODO:REFACTOR " description="todo:refactor" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdsec" value="// TODO:SECURITY " toReformat="false" toShortenFQNames="true">
+<template name="tdsec" value="// TODO:SECURITY " description="todo:security" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdui" value="// TODO:UI " toReformat="false" toShortenFQNames="true">
+<template name="tdui" value="// TODO:UI " description="todo:ui" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="tdux" value="// TODO:UX " toReformat="false" toShortenFQNames="true">
+<template name="tdux" value="// TODO:UX " description="todo:ux" toReformat="false" toShortenFQNames="true">
   <context>
     <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
