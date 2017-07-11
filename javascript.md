@@ -23,6 +23,9 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
+<template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true">
+  <context />
+</template>
 <template name="imp" value="import $var1 from '$var1$'" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
   <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
   <context>
@@ -38,50 +41,50 @@
 </template>
 <template name="td" value="// TODO " description="todo" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdbd" value="// TODO:BEFORE_DEPLOY " description="todo:before_deploy" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdbg" value="// TODO:BUG " description="todo:bug" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdper" value="// TODO:PERFORMANCE " description="todo:performance" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdref" value="// TODO:REFACTOR " description="todo:refactor" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdsec" value="// TODO:SECURITY " description="todo:security" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdui" value="// TODO:UI " description="todo:ui" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 <template name="tdux" value="// TODO:UX " description="todo:ux" toReformat="false" toShortenFQNames="true">
   <context>
-    <option name="CSS" value="true" />
     <option name="JAVA_SCRIPT" value="true" />
+    <option name="CSS" value="true" />
   </context>
 </template>
 ```
