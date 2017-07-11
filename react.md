@@ -1,5 +1,5 @@
 ```xml
-<template name="ractiondel" value="export const $NAME$ = (id) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: (client) =&gt; client.del('/$URL$/' + id)&#10;})&#10;" description="delete action" toReformat="false" toShortenFQNames="true">
+<template name="ractiondel" value="export const $NAME$ = (id) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: client =&gt; client.del('/$URL$/' + id)&#10;})&#10;" description="delete action" toReformat="false" toShortenFQNames="true">
   <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="ACTIONTYPE" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
@@ -7,7 +7,7 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="ractionget" value="export const $NAME$ = (id) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: (client) =&gt; client.get('/$URL$/' + id)&#10;})&#10;" description="get action" toReformat="false" toShortenFQNames="true">
+<template name="ractionget" value="export const $NAME$ = (id) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: client =&gt; client.get('/$URL$/' + id)&#10;})&#10;" description="get action" toReformat="false" toShortenFQNames="true">
   <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="ACTIONTYPE" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
@@ -15,7 +15,7 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="ractiongetall" value="export const $NAME$ = () =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: (client) =&gt; client.get('/$URL$')&#10;})&#10;" description="get all action" toReformat="false" toShortenFQNames="true">
+<template name="ractiongetall" value="export const $NAME$ = () =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: client =&gt; client.get('/$URL$')&#10;})&#10;" description="get all action" toReformat="false" toShortenFQNames="true">
   <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="ACTIONTYPE" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
@@ -23,7 +23,7 @@
     <option name="JAVA_SCRIPT" value="true" />
   </context>
 </template>
-<template name="ractionpost" value="export const $NAME$ = (data) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: (client) =&gt; client.post('/$URL$', {data})&#10;})&#10;" description="post action" toReformat="false" toShortenFQNames="true">
+<template name="ractionpost" value="export const $NAME$ = (data) =&gt; ({&#10;  types: [types.$ACTIONTYPE$, types.$ACTIONTYPE$_SUCCESS, types.$ACTIONTYPE$_FAIL],&#10;  promise: client =&gt; client.post('/$URL$', {data})&#10;})&#10;" description="post action" toReformat="false" toShortenFQNames="true">
   <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="ACTIONTYPE" expression="" defaultValue="" alwaysStopAt="true" />
   <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
